@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: print a welcome message
-        run: welcomeeeeee
+        run: echo "welcomeeeeee"
 
       - name: CheckOut Repository
         uses: actions/checkout@v7
